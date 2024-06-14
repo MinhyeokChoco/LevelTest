@@ -1,0 +1,222 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.calc_wrap {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container {
+    width: 24%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    background-color: rgb(78, 69, 62);
+    color: white;
+    font-size: 30px;
+}
+
+.calc_wrap>.calc_container>#total {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: right;
+}
+
+.calc_wrap>.calc_container>.first_row {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calc_wrap>.calc_container>.first_row>#clear {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 86, 80);
+}
+
+.calc_wrap>.calc_container>.first_row>#backspace {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 86, 80);
+}
+
+.calc_wrap>.calc_container>.first_row>#division {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 147, 12);
+}
+
+.calc_wrap>.calc_container>.second_row {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(99, 83, 73);
+}
+
+.calc_wrap>.calc_container>.second_row>#seven {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.second_row>#eight {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.second_row>#nine {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.second_row>#multiplication {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 147, 12);
+}
+
+.calc_wrap>.calc_container>.third_row {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(99, 83, 73);
+}
+
+.calc_wrap>.calc_container>.third_row>#four {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.third_row>#five {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.third_row>#six {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.third_row>#subtraction {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 147, 12);
+}
+
+.calc_wrap>.calc_container>.fourth_row {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(99, 83, 73);
+}
+
+.calc_wrap>.calc_container>.fourth_row>#one {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.fourth_row>#two {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.fourth_row>#three {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.fourth_row>#addition {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 147, 12);
+}
+
+.calc_wrap>.calc_container>.fifth_row {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(99, 83, 73);
+}
+
+.calc_wrap>.calc_container>.fifth_row>#zero {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.fifth_row>#dot {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_wrap>.calc_container>.fifth_row>#equal {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 147, 12);
+}

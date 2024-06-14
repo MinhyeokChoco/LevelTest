@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div class="calc_wrap">
+        <div class="calc_container">
+            <div id="total"></div>
+            <div class="first_row">
+                <span id="clear">AC</span>
+                <span id="backspace">back</span>
+                <span id="division">/</span>
+            </div>
+            <div class="second_row">
+                <span id="seven">7</span>
+                <span id="eight">8</span>
+                <span id="nine">9</span>
+                <span id="multiplication">*</span>
+            </div>
+            <div class="third_row">
+                <span id="four">4</span>
+                <span id="five">5</span>
+                <span id="six">6</span>
+                <span id="subtraction">-</span>
+            </div>
+            <div class="fourth_row">
+                <span id="one">1</span>
+                <span id="two">2</span>
+                <span id="three">3</span>
+                <span id="addition">+</span>
+            </div>
+            <div class="fifth_row">
+                <span id="zero">0</span>
+                <span id="dot">.</span>
+                <span id="equal">=</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script>
+    const total = document.getElementById('total');
+    const clear = document.getElementById('clear');
+    const backspace = document.getElementById('backspace');
+
+    clear.addEventListener('click', () => {
+        total.remove(value);
+    })
+
+    backspace.addEventListener('click', () => {
+        total
+    })
+
+
+</script>
+
+</html>
